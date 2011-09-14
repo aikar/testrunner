@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 var fs = require('fs');
-process.chdir(__dirname + '/test');
+process.chdir(process.cwd() + '/test');
 if (process.argv.length <= 2) {
   // Add all tests to be ran.
   process.argv = process.argv.concat(fs.readdirSync('.'));

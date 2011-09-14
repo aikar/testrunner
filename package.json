@@ -2,7 +2,7 @@
   "name": "testrunner",
   "description": "Runs Vows unit test.",
   "keywords": ["vows", "test", "unit test"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://aikar.co/testrunner",
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   },
   "engines": {
     "node": ">=0.4.0"
+  },
+  "bin": {
+    "runtest": "./runTest.js"
   }
 }
